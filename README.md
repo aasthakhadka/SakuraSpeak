@@ -33,18 +33,10 @@ A JavaFX desktop application for learning vocabulary in six European languages t
 
 ## Running the App
 
-### Option 1 — Maven (recommended)
+### Maven (recommended)
 
 ```bash
-cd SakuraSpeak
-mvn javafx:run
-```
-
-### Option 2 — Build a JAR, then run
-
-```bash
-cd SakuraSpeak
-mvn package
+mvn clean compile
 mvn javafx:run
 ```
 
